@@ -1,0 +1,40 @@
+<html>
+<link type="text/css" rel="stylesheet" href="fixtures/styles.css">
+<style>
+    #a {
+        text-transform: uppercase;
+    }
+    .b {
+        color: blue;
+    }
+    .c {
+        background: white;
+    }
+    .js-overlay {
+        display: none;
+    }
+    #js-button {
+        color: blue;
+    }
+    @media (min-width: 768px) {
+        .b {
+            color: gray;
+        }
+    }
+</style>
+<body>
+<svg style="display:none">
+    <symbol id="b"><path d=""></path></symbol>
+</svg>
+<h1 id="a">Title</h1>
+<div class="js-overlay"></div>
+<div class="c">
+    card content
+</div>
+<svg>
+    <use xlink:href="#b"></use>
+</svg>
+<label for="c">Click me</label>
+<input type="text" id="c">
+</body>
+</html>

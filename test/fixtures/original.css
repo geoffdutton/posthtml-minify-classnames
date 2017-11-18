@@ -1,0 +1,24 @@
+.some-unused-class {
+    font-size: 12px;
+    font-weight: bold;
+}
+#some-id {
+    text-transform: uppercase;
+}
+.header__intro {
+    color: blue;
+}
+.card--profile {
+    background: white;
+}
+.js-overlay {
+    display: none;
+}
+#js-button {
+    color: blue;
+}
+@media (min-width: 768px) {
+    .header__intro {
+        color: gray;
+    }
+}
